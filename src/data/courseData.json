@@ -1,0 +1,116 @@
+{  
+    "courses": [
+        {
+            "course": "INF301",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF302",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF311",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF312",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF313",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF314",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF315",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF351",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF352",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF353",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF401",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+
+        {
+            "course": "INF402",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF411",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF412",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF413",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF451",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF452",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF453",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF450",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF481",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF482",
+            "isCompleted": false,
+            "finalgrade": 0 
+        },
+        {
+            "course": "INF483",
+            "isCompleted": false,
+            "finalgrade": 0 
+        }
+        
+    ]  
+}  

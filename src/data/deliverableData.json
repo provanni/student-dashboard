@@ -1,0 +1,68 @@
+{  
+    "assignments": [
+        {
+            "course": "INF313",
+            "name": "Project 1",   
+            "duedate": "9/15/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 1",   
+            "duedate": "9/23/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 2",   
+            "duedate": "9/13/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 3",   
+            "duedate": "10/3/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 4",   
+            "duedate": "11/24/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 1",   
+            "duedate": "9/16/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 2",   
+            "duedate": "11/11/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 3",   
+            "duedate": "10/7/2024",   
+            "weight": 10,
+            "complete": 0 
+        },
+        {
+            "course": "INF313",
+            "name": "Project 4",   
+            "duedate": "9/18/2024",   
+            "weight": 10,
+            "complete": 0 
+        }
+        
+    ]  
+}  
