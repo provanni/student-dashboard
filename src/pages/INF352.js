@@ -2,17 +2,19 @@ import React from 'react'
 import '../index.css'
 import { Nav } from '../components/nav/nav'
 import { Header } from '../components/header/header'
+import courseData from '../data/courseData.json'
 
 const INF352 = () => {
   return (
     <div className="App" style={{display: 'flex'}}>
       <Nav />
       <div style={{display: 'block', position: 'relative'}}>
-      <Header/>
+      <Header  courseData={courseData} />
       <div style={{width: '300', float: 'left', paddingLeft: '100px'}}>
       <h2>Textbooks</h2>
         
-        <h2>Schedule</h2>
+      <h2>Schedule</h2>
+        <div style={{height: '350px', overflow: 'scroll', overflowX: 'hidden'}}>
         <table>
           <tr>
             <th>Week</th>
@@ -34,7 +36,181 @@ const INF352 = () => {
               </ul>
             </td>
           </tr>
+          <tr>
+            <td>Week 2</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 3</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 3</li>
+                <li><strong>F. </strong>Ch 1.2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Logic and Circuits</li>
+                <li>Tutorial 3</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 4</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 4.1, 4.2, 5</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Problem Solving Principles</li>
+                <li>Tutorial 4</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 5</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 5</li>
+                <li><strong>F. </strong>Ch 8.1, 8.2</li>
+                <li><strong>H. </strong>Ch 1, Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Programming Constructs</li>
+                <li>Tutorial 5</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 6</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 4.3, 4.4</li>
+                <li><strong>F. </strong>Ch 5.3.4</li>
+                <li><strong>H. </strong>Ch 3</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Decomposition and Modularity</li>
+                <li>Tutorial 6</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 7</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 8</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 9</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 10</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 11</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 12</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Week 13</td>
+            <td>
+              <ul>
+                <li><strong>R. </strong>Ch 2</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Binary and Encoding</li>
+                <li>Tutorial 2</li>
+              </ul>
+            </td>
+          </tr>
         </table>
+        </div>
       </div>
       <div style={{width: '330px', float: 'right'}}>
       <h2>Course Info</h2>

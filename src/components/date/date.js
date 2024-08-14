@@ -12,6 +12,6 @@ export const DateComponent = () => {
 
 
   return (
-    <div>{month}/{date}/{year}</div>
+    <div style={{fontSize: '18px'}}>{month}/{date}/{year}</div>
   )
 }

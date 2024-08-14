@@ -3,6 +3,7 @@ import { Nav } from '../components/nav/nav';
 import { Deliverable } from '../components/deliverable/Deliverable';
 import deliverableData from '../data/deliverableData.json';
 import { Header } from '../components/header/header';
+import courseData from '../data/courseData.json'
 
 
 function Home() {
@@ -12,31 +13,33 @@ function Home() {
     return new Date(a.duedate) - new Date(b.duedate); 
   })
 
-  //compare current date with assignment duedate
+  //create current date
   const today = new Date();
   const month = today.getMonth()+1;
   const year = today.getFullYear();
-  const date = today. getDate();
+  const date = today.getDate();
   const currentDate = new Date(month + "/" + date + "/" + year)
 
 
-  {Object.keys(deliverableData.assignments).forEach(key =>{
+  Object.keys(deliverableData.assignments).forEach(key =>{
 
+    //convert to Date object
     const d = new Date(deliverableData.assignments[key].duedate)
 
+    //compare current date with assignment duedate
     if(d < currentDate) {
 
       delete deliverableData.assignments[key]
-      
+
     }
-  })}
+  })
   
 
   return (
     <div className="App" style={{display: 'flex'}}>
       <Nav />
       <div style={{display: 'block'}}>
-      <Header/>
+      <Header  courseData={courseData} />
       <div style={{display: 'flex'}}>
       <div className='deliverablesContainer'>
       

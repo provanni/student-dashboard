@@ -2,13 +2,14 @@ import React from 'react'
 import '../index.css'
 import { Nav } from '../components/nav/nav'
 import { Header } from '../components/header/header'
+import courseData from '../data/courseData.json'
 
 const INF313 = () => {
   return (
     <div className="App" style={{display: 'flex'}}>
       <Nav />
       <div style={{display: 'block', position: 'relative'}}>
-      <Header/>
+      <Header  courseData={courseData} />
       <div style={{width: '600', float: 'left', paddingLeft: '100px'}}>
         <h2>Textbooks</h2>
         <div style={{width: '600px'}}>

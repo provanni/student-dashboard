@@ -84,3 +84,9 @@ th {
   height: 40px;
   font-size:medium;
 }
+
+.loginSelect input { 
+  font-size:medium;
+  margin: 2px;
+  
+}

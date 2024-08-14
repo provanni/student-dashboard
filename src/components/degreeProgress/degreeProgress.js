@@ -1,21 +1,21 @@
-import React from 'react'
-import courseData from '../../data/courseData.json'
-
+import React, { useState, useEffect } from 'react';
 
 export const DegreeProgress = () => {
 
-    var coursesCompleted = 0;
-    var degreeProgress = 0;
+  const [ courseData, setCourseData] = useState([])
 
-    Object.keys(courseData.courses).forEach(key => {
+  useEffect(() => {
+    const data = JSON.parse(localStorage.getItem('courseData'));
+    if (data) {
+      setCourseData(data);
+    }
+  }, []);
 
-        if (courseData.courses[key]['isCompleted'] === true){
-          coursesCompleted += 1;
-        }
+  const completedCourses = Object.values(courseData).filter(course => course.isCompleted).length;
+  const totalCourses = Object.values(courseData).length;
+  const progress = totalCourses > 0 ? ((completedCourses / totalCourses) * 100).toFixed(2) : 0;
 
-        degreeProgress = (coursesCompleted/22)*100;
-    })
   return (
-    <div>Progress: {degreeProgress.toFixed(2)}%</div>
-  )
-}
+    <div>Degree Progress: {progress}%</div>
+  );
+};
